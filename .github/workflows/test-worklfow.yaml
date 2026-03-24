@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a test command
-        run: echo "This is a test job"
+        run: eho "This is a test job"
