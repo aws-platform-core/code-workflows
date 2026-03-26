@@ -1,0 +1,13 @@
+name: On PR Merge
+
+on:
+    pull_request:
+      types: 
+        [closed]
+
+jobs:
+    test-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Run a test command
+              run: echo "This is a test job"                  
